@@ -19,7 +19,7 @@ lightDark.click(() => {
   root.css("--main-bg-color", "#8990895c");
   root.css("--light-bg-color", "#d3d3d369");
   root.css("--light-accent-color", "black");
-  root.css("--accent-color", "green");
+  root.css("--accent-color", "#012c01");
   root.css("--font-color", "black");
   button.css("color", "white");
   body.css(
