@@ -16,7 +16,7 @@ passwordForm.click(() => {
 });
 
 lightDark.click(() => {
-  root.css("--main-bg-color", "#899089");
+  root.css("--main-bg-color", "#8990895c");
   root.css("--light-bg-color", "#d3d3d369");
   root.css("--light-accent-color", "black");
   root.css("--accent-color", "green");
