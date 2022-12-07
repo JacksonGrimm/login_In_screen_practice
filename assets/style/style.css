@@ -1,0 +1,79 @@
+:root {
+    --main-bg-color: #2d3250;
+    --light-bg-color: #484d6c;
+    --light-accent-color: #8e94c0;
+    --accent-color: #f1b765;
+    --font-color: white;
+}
+
+::placeholder{
+    color: var(--light-accent-color)
+}
+
+body {
+    height: 100%;
+    overflow: hidden;
+    background-image: url(https://images.unsplash.com/photo-1523436495875-154b5f8317e1?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1770&q=80);
+}
+
+main {
+    box-shadow: 1px 1px 10px rgba(43, 36, 52, 0.649);
+    width: 50vw;
+    height: 100vh;
+    background-color: var(--main-bg-color);
+}
+header div{
+    height: 2rem;
+}
+
+form input{
+    border-style: none;
+    outline: none;
+    background-color: var(--light-bg-color);
+    padding: 10px 7px 10px 7px;
+    margin: 4px;
+    margin-left: 0px;
+    width: 90%;
+}
+
+.selectedForm{
+    border-left:4px solid var(--accent-color);
+
+}
+
+.lightTextColor{
+    color: var(--light-accent-color);
+}
+
+.headerSelect{
+    padding: 0px 7px 0px 7px;
+    border-bottom:4px solid var(--accent-color);
+}
+
+.headerSelect p {
+    color: var(--font-color);
+}
+
+.whiteText {
+    color: var(--font-color);
+}
+
+.leftMargin {
+    margin-left: 16%;
+}
+
+.submitButton {
+    padding: 5px 30px 5px 30px;
+    text-align: center;
+    color: var(--light-bg-color);
+    border-radius: 3px;
+    border-style: none;
+    background-color: #f1b765;
+    box-shadow: 0px 0px 5px #f1b765;
+    margin: 5px;
+    margin-left: 0px;
+}
+
+.mainContainer{
+    margin-top: 25%;
+}
