@@ -40,18 +40,22 @@
             <form action="">
               <div>
                 <input
-                  class="whiteText selectedForm"
-                  type="text"
-                  name=""
-                  id=""
-                  placeholder="email"
-                />
-                <input
+                  data-isClicked="false"
                   class="whiteText"
                   type="text"
                   name=""
-                  id=""
+                  id="email"
+                  placeholder="email"
+                  autocomplete="off"
+                />
+                <input
+                  data-isClicked="false"
+                  class="whiteText"
+                  type="text"
+                  name=""
+                  id="password"
                   placeholder="password"
+                  autocomplete="off"
                 />
               </div>
             </form>
@@ -60,11 +64,21 @@
             <!--Submit-->
             <button class="submitButton">Submit!</button>
           </div>
+          <footer>
+            <button id="colorModeSwitch" class="submitButton mt-5">
+              Light/DarkMode
+            </button>
+          </footer>
         </div>
-        <footer></footer>
       </section>
     </main>
-
+    <!-- jquery -->
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js"
+      integrity="sha512-aVKKRRi/Q/YV+4mjoKBsE4x3H+BkegoM/em46NNlCqNTmUYADjBbeNefNxYV7giUp0VxICtqdrbqU7iVaeZNXA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
     <!-- js script  -->
     <script src="./assets/js/script.js"></script>
     <!-- bootstrap JS -->
